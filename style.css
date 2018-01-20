@@ -11,6 +11,28 @@ body {
   text-align: center;
 }
 
+#nav {
+  position: fixed;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background: #eee;
+  opacity: 0.8;
+}
+
+#nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 0px;
+  font-size: 20px;
+}
+
+#nav a:hover {
+  text-decoration: none;
+  color: #eee;
+  background: #333;
+}
+
 #showcase {
   display: flex;
   flex-direction: column;
@@ -24,7 +46,7 @@ body {
 #showcase .bg-image {
   position: absolute;
   background-image: url('https://static.pexels.com/photos/572688/pexels-photo-572688.jpeg');
-  background-position: center;
+  background-position: 47% 53%;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -56,4 +78,8 @@ body {
   background: #fff;
   color: #333;
   transition: 0.1s ease-out;
+}
+
+.filler {
+  padding: 20px;
 }
