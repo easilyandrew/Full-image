@@ -21,7 +21,7 @@ body {
   color: #fff;
 }
 
-#showcase .img {
+#showcase .bg-image {
   position: absolute;
   background-image: url('https://static.pexels.com/photos/572688/pexels-photo-572688.jpeg');
   background-position: center;
@@ -42,7 +42,7 @@ body {
   font-size: 20px;
 }
 
-#showcase .btn {
+#showcase .button {
   text-decoration: none;
   color: #fff;
   border: 1px solid #fff;
@@ -52,7 +52,7 @@ body {
   transition: 0.1s ease-out;
 }
 
-#showcase .btn:hover {
+#showcase .button:hover {
   background: #fff;
   color: #333;
   transition: 0.1s ease-out;
